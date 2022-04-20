@@ -1,23 +1,13 @@
 @font-face {
   font-family: "COCOGOOSE";
-  src: url("../webfonts_COCOGOOSE/COCOGOOSE.ttf.woff") format("woff"),
-    url("../webfonts_COCOGOOSE/COCOGOOSE.ttf.svg#COCOGOOSE") format("svg"),
-    url("../webfonts_COCOGOOSE/COCOGOOSE.ttf.eot"),
-    url("../webfonts_COCOGOOSE/COCOGOOSE.ttf.eot?#iefix")
-      format("embedded-opentype");
+  src: url("../webfonts_COCOGOOSE/COCOGOOSE.ttf.woff") format("woff"), url("../webfonts_COCOGOOSE/COCOGOOSE.ttf.svg#COCOGOOSE") format("svg"), url("../webfonts_COCOGOOSE/COCOGOOSE.ttf.eot"), url("../webfonts_COCOGOOSE/COCOGOOSE.ttf.eot?#iefix") format("embedded-opentype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "COCOGOOSE-LETTERPRESS";
-  src: url("../webfonts_COCOGOOSE-LETTERPRESS/COCOGOOSE-LETTERPRESS.ttf.woff")
-      format("woff"),
-    url("../webfonts_COCOGOOSE-LETTERPRESS/COCOGOOSE-LETTERPRESS.ttf.svg#COCOGOOSE-LETTERPRESS")
-      format("svg"),
-    url("../webfonts_COCOGOOSE-LETTERPRESS/COCOGOOSE-LETTERPRESS.ttf.eot"),
-    url("../webfonts_COCOGOOSE-LETTERPRESS/COCOGOOSE-LETTERPRESS.ttf.eot?#iefix")
-      format("embedded-opentype");
+  src: url("../webfonts_COCOGOOSE-LETTERPRESS/COCOGOOSE-LETTERPRESS.ttf.woff") format("woff"), url("../webfonts_COCOGOOSE-LETTERPRESS/COCOGOOSE-LETTERPRESS.ttf.svg#COCOGOOSE-LETTERPRESS") format("svg"), url("../webfonts_COCOGOOSE-LETTERPRESS/COCOGOOSE-LETTERPRESS.ttf.eot"), url("../webfonts_COCOGOOSE-LETTERPRESS/COCOGOOSE-LETTERPRESS.ttf.eot?#iefix") format("embedded-opentype");
   font-weight: normal;
   font-style: normal;
 }
@@ -163,8 +153,7 @@ nav .nav_menu li a:hover {
 
 /* burger menu Mobile  Icons */
 
-nav .nav_menu.open,
-nav .nav_menu.hide {
+nav .nav_menu.open, nav .nav_menu.hide {
   visibility: visible;
   display: flex;
   flex-direction: column;
@@ -195,8 +184,7 @@ nav .nav_menu.hide li {
   margin: 12px;
 }
 
-nav .nav_menu.open li a,
-nav .nav_menu.hide li a {
+nav .nav_menu.open li a, nav .nav_menu.hide li a {
   font-size: 32px;
   line-height: 44px;
   font-weight: 600;
@@ -219,11 +207,7 @@ ul {
   opacity: 0.9;
   margin: 0 auto;
   text-align: center;
-  background-image: linear-gradient(
-      rgba(238, 238, 238, 0.479),
-      rgba(235, 235, 235, 0.521)
-    ),
-    url("../images/about-img.png");
+  background-image: linear-gradient(rgba(238, 238, 238, 0.479), rgba(235, 235, 235, 0.521)), url("../images/about-img.png");
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -574,9 +558,7 @@ footer .created p {
     width: 90%;
   }
 
-  .overView h2,
-  .gorilla h2,
-  .partners_section h2 {
+  .overView h2, .gorilla h2, .partners_section h2 {
     padding: 52px 0 12px;
     font-size: 30px;
     line-height: 48px;
