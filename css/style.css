@@ -214,11 +214,7 @@ h2 {
 .home_section {
   padding: 80px 24px 0;
   background-color: var(--primary);
-  background-image: linear-gradient(
-      rgba(238, 238, 238, 0.87),
-      rgb(235, 235, 235)
-    ),
-    url("../images/main-img.png");
+  background-image: linear-gradient(rgba(238, 238, 238, 0.87), rgb(235, 235, 235)), url("../images/main-img.png");
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -226,7 +222,7 @@ h2 {
 
 .home_section_title {
   color: var(--secondary);
-  overflow-y: none;
+  overflow-y: hidden;
 }
 
 .home_section_title h2 {
