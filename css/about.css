@@ -185,7 +185,8 @@ nav .nav_menu.hide li {
   margin: 12px;
 }
 
-nav .nav_menu.open li a, nav .nav_menu.hide li a {
+nav .nav_menu.open li a, 
+nav .nav_menu.hide li a {
   font-size: 32px;
   line-height: 44px;
   font-weight: 600;
