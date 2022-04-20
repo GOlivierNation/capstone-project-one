@@ -185,7 +185,8 @@ nav .nav_menu.hide li {
   margin: 12px;
 }
 
-nav .nav_menu.open li a, nav .nav_menu.hide li a {
+nav .nav_menu.open li a, 
+nav .nav_menu.hide li a {
   font-size: 32px;
   line-height: 44px;
   font-weight: 600;
@@ -558,8 +559,10 @@ footer .created p {
   article h4 {
     width: 90%;
   }
-
-  .overView h2, .gorilla h2, .partners_section h2 {
+  
+  .overView h2, 
+  .gorilla h2, 
+  .partners_section h2 {
     padding: 52px 0 12px;
     font-size: 30px;
     line-height: 48px;
