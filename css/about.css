@@ -153,7 +153,8 @@ nav .nav_menu li a:hover {
 
 /* burger menu Mobile  Icons */
 
-nav .nav_menu.open, nav .nav_menu.hide {
+nav .nav_menu.open,
+nav .nav_menu.hide {
   visibility: visible;
   display: flex;
   flex-direction: column;
