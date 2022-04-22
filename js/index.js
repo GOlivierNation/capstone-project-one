@@ -135,9 +135,6 @@ data.forEach((info) => {
 });
 
 // Implementing the Flex card dynamically
-
-const teamList = document.querySelectorAll('#Team .teams li');
-// const moreBtn = document.querySelector('#Team button');
 const btnSpan = document.querySelector('#Team button span');
 const btnIcon = document.querySelector('#Team button i');
 
