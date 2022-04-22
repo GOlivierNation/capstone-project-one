@@ -137,36 +137,9 @@ data.forEach((info) => {
 // Implementing the Flex card dynamically
 
 const teamList = document.querySelectorAll('#Team .teams li');
-const moreBtn = document.querySelector('#Team button');
+// const moreBtn = document.querySelector('#Team button');
 const btnSpan = document.querySelector('#Team button span');
 const btnIcon = document.querySelector('#Team button i');
 
 let state = false;
-
-function displayMore() {
-  if (!state) {
-    teamList.forEach((team) => {
-      team.style.display = 'flex';
-    });
-    btnSpan.textContent = 'LESS';
-    btnIcon.classList.remove('fa', 'fa-chevron-down');
-    btnIcon.classList.add('fa', 'fa-chevron-up');
-
-    state = true;
-  } else {
-    teamList.forEach((team) => {
-      team.style.display = 'none';
-    });
-    teamList[0].style.display = 'flex';
-    teamList[1].style.display = 'flex';
-
-    btnSpan.textContent = 'MORE';
-    btnIcon.classList.remove('fa', 'fa-chevron-up');
-    btnIcon.classList.add('fa', 'fa-chevron-down');
-
-    state = false;
-  }
-}
-
-moreBtn.addEventListener('click', displayMore);
 // END OF TEAM DATA
