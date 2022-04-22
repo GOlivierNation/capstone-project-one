@@ -1,24 +1,14 @@
 /* MAIN CSS */
 @font-face {
   font-family: "COCOGOOSE";
-  src: url("../webfonts_COCOGOOSE/COCOGOOSE.ttf.woff") format("woff"),
-    url("../webfonts_COCOGOOSE/COCOGOOSE.ttf.svg#COCOGOOSE") format("svg"),
-    url("../webfonts_COCOGOOSE/COCOGOOSE.ttf.eot"),
-    url("../webfonts_COCOGOOSE/COCOGOOSE.ttf.eot?#iefix")
-      format("embedded-opentype");
+  src: url("../webfonts_COCOGOOSE/COCOGOOSE.ttf.woff") format("woff"), url("../webfonts_COCOGOOSE/COCOGOOSE.ttf.svg#COCOGOOSE") format("svg"), url("../webfonts_COCOGOOSE/COCOGOOSE.ttf.eot"), url("../webfonts_COCOGOOSE/COCOGOOSE.ttf.eot?#iefix") format("embedded-opentype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "COCOGOOSE-LETTERPRESS";
-  src: url("../webfonts_COCOGOOSE-LETTERPRESS/COCOGOOSE-LETTERPRESS.ttf.woff")
-      format("woff"),
-    url("../webfonts_COCOGOOSE-LETTERPRESS/COCOGOOSE-LETTERPRESS.ttf.svg#COCOGOOSE-LETTERPRESS")
-      format("svg"),
-    url("../webfonts_COCOGOOSE-LETTERPRESS/COCOGOOSE-LETTERPRESS.ttf.eot"),
-    url("../webfonts_COCOGOOSE-LETTERPRESS/COCOGOOSE-LETTERPRESS.ttf.eot?#iefix")
-      format("embedded-opentype");
+  src: url("../webfonts_COCOGOOSE-LETTERPRESS/COCOGOOSE-LETTERPRESS.ttf.woff") format("woff"), url("../webfonts_COCOGOOSE-LETTERPRESS/COCOGOOSE-LETTERPRESS.ttf.svg#COCOGOOSE-LETTERPRESS") format("svg"), url("../webfonts_COCOGOOSE-LETTERPRESS/COCOGOOSE-LETTERPRESS.ttf.eot"), url("../webfonts_COCOGOOSE-LETTERPRESS/COCOGOOSE-LETTERPRESS.ttf.eot?#iefix") format("embedded-opentype");
   font-weight: normal;
   font-style: normal;
 }
@@ -228,11 +218,7 @@ h2 {
 .home_section {
   padding: 80px 24px 0;
   background-color: var(--primary);
-  background-image: linear-gradient(
-      rgba(238, 238, 238, 0.87),
-      rgb(235, 235, 235)
-    ),
-    url("../images/main-img.png");
+  background-image: linear-gradient(rgba(238, 238, 238, 0.87), rgb(235, 235, 235)), url("../images/main-img.png");
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -640,7 +626,6 @@ footer .down p {
   .program_section button {
     display: none;
   }
-
   .program_section a {
     display: block;
     color: var(--primary);
