@@ -625,8 +625,8 @@ footer .down p {
 
   .program_section button {
     display: none;
-}
-  
+  }
+
   .program_section a {
     display: block;
     color: var(--primary);
