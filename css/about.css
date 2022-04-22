@@ -1,13 +1,23 @@
 @font-face {
   font-family: "COCOGOOSE";
-  src: url("../webfonts_COCOGOOSE/COCOGOOSE.ttf.woff") format("woff"), url("../webfonts_COCOGOOSE/COCOGOOSE.ttf.svg#COCOGOOSE") format("svg"), url("../webfonts_COCOGOOSE/COCOGOOSE.ttf.eot"), url("../webfonts_COCOGOOSE/COCOGOOSE.ttf.eot?#iefix") format("embedded-opentype");
+  src: url("../webfonts_COCOGOOSE/COCOGOOSE.ttf.woff") format("woff"),
+    url("../webfonts_COCOGOOSE/COCOGOOSE.ttf.svg#COCOGOOSE") format("svg"),
+    url("../webfonts_COCOGOOSE/COCOGOOSE.ttf.eot"),
+    url("../webfonts_COCOGOOSE/COCOGOOSE.ttf.eot?#iefix")
+      format("embedded-opentype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "COCOGOOSE-LETTERPRESS";
-  src: url("../webfonts_COCOGOOSE-LETTERPRESS/COCOGOOSE-LETTERPRESS.ttf.woff") format("woff"), url("../webfonts_COCOGOOSE-LETTERPRESS/COCOGOOSE-LETTERPRESS.ttf.svg#COCOGOOSE-LETTERPRESS") format("svg"), url("../webfonts_COCOGOOSE-LETTERPRESS/COCOGOOSE-LETTERPRESS.ttf.eot"), url("../webfonts_COCOGOOSE-LETTERPRESS/COCOGOOSE-LETTERPRESS.ttf.eot?#iefix") format("embedded-opentype");
+  src: url("../webfonts_COCOGOOSE-LETTERPRESS/COCOGOOSE-LETTERPRESS.ttf.woff")
+      format("woff"),
+    url("../webfonts_COCOGOOSE-LETTERPRESS/COCOGOOSE-LETTERPRESS.ttf.svg#COCOGOOSE-LETTERPRESS")
+      format("svg"),
+    url("../webfonts_COCOGOOSE-LETTERPRESS/COCOGOOSE-LETTERPRESS.ttf.eot"),
+    url("../webfonts_COCOGOOSE-LETTERPRESS/COCOGOOSE-LETTERPRESS.ttf.eot?#iefix")
+      format("embedded-opentype");
   font-weight: normal;
   font-style: normal;
 }
@@ -209,7 +219,11 @@ ul {
   opacity: 0.9;
   margin: 0 auto;
   text-align: center;
-  background-image: linear-gradient(rgba(238, 238, 238, 0.479), rgba(235, 235, 235, 0.521)), url("../images/about-img.png");
+  background-image: linear-gradient(
+      rgba(238, 238, 238, 0.479),
+      rgba(235, 235, 235, 0.521)
+    ),
+    url("../images/about-img.png");
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -298,6 +312,7 @@ footer .logo {
   width: 10rem;
   margin: 0 1rem;
   flex-shrink: 0;
+  margin-left: 280px;
 }
 
 footer .logo img {
@@ -432,7 +447,7 @@ footer {
   text-align: center;
   padding: 3rem 0;
   margin: 0 auto;
-  background-color: #fff;
+  background-color: var(--text-color);
 }
 
 footer .created {
@@ -441,7 +456,7 @@ footer .created {
 }
 
 footer .created p {
-  color: var(--text-color);
+  color: #fff;
   text-align: left;
 }
 
