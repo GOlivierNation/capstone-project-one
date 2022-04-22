@@ -1,4 +1,4 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+![](https://img.shields.io/badge/CapstoneProject-orange)
 
 # GORILLA NAMING CEREMONY
 
