@@ -133,10 +133,4 @@ data.forEach((info) => {
   const card = createCard(info);
   teamContainer.appendChild(card);
 });
-
-// Implementing the Flex card dynamically
-const btnSpan = document.querySelector('#Team button span');
-const btnIcon = document.querySelector('#Team button i');
-
-let state = false;
 // END OF TEAM DATA
